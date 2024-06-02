@@ -22,4 +22,3 @@ nama_variabel =[
 ]
 
 4. Setelah itu bikin endpoint untuk post data (sebagai provider) ke kelompok yang menjadi tanggung jawabnya
-
