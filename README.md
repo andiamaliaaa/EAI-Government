@@ -21,4 +21,4 @@ nama_variabel =[
     {'atribut': 'isi (kalau string)', 'atribut': isi (kalo int), dll}
 ]
 
-4. 
+4. Setelah itu
