@@ -1,6 +1,5 @@
 from typing import List
 from decimal import Decimal
-import pandas as pd
 from typing import Literal
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
@@ -39,7 +38,7 @@ async def read_root():
 # Endpoint untuk menabahkan data pajak objek wisata
 @app.post('/pajak')
 async def add_pajakwisata(pajak: Pajak):
-    data_pajakwisata.append(pajak.model_dump())
+    data_pajakwisata.append(pajak.dict())
     return {"message": "Data Pajak Objek Wisata Berhasil Ditambahkan."}
 
 #Endpoint untuk mendapatkan data pajak objek wisata
