@@ -66,4 +66,3 @@ class ObjekWisata(BaseModel):
 async def get_objekwisata():
     data_objekwisata = get_objek_wisata_from_web()
     return data_objekwisata
-
