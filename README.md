@@ -5,6 +5,7 @@
 - pip install uvicorn
 - pip intsall requests
 - pip install Literal
+- pip install sqlalchemy mysql-connector-python
 
 2. Setelah itu baru kalian bikin schema model masing-masing database
 class nama_model(BaseModel):
@@ -18,7 +19,8 @@ nama_variabel =[
     {'atribut': 'isi (kalau string)', 'atribut': isi (kalo int), dll},
     {'atribut': 'isi (kalau string)', 'atribut': isi (kalo int), dll},
     {'atribut': 'isi (kalau string)', 'atribut': isi (kalo int), dll},
-    {'atribut': 'isi (kalau string)', 'atribut': isi (kalo int), dll}
+    {'atribut': 'isi (kalau st
+    ring)', 'atribut': isi (kalo int), dll}
 ]
 
 4. Setelah itu bikin endpoint untuk post data (sebagai provider) ke kelompok yang menjadi tanggung jawabnya
